@@ -13,8 +13,8 @@ class Artist
   end
   
   def songs
-  
-   @songs
+     #access the Song class and get all the songs. Find a way to only select those whose artist is the current artist
+   Song.all
   end
   
 
