@@ -14,7 +14,7 @@ class Artist
   
   def songs
      #access the Song class and get all the songs. Find a way to only select those whose artist is the current artist
-   Song.all
+   Song.all.select {|the_song| the_song == artist}
   end
   
 
