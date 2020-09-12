@@ -15,6 +15,6 @@ class Author
   def add_post(a_post)
     a_post.author == self
   end
-  binding.pry
+  b
   
 end
