@@ -32,7 +32,7 @@ class Artist
       
   end
   
-  def artist_name
+  
     
   
   
