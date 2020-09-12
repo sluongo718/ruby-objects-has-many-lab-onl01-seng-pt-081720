@@ -1,3 +1,4 @@
+require "pry"
 class Author
   
   attr_accessor :name
@@ -11,6 +12,6 @@ class Author
     
   end
   
-  
+  binding.pry
   
 end
