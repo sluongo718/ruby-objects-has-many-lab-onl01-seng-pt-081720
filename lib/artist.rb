@@ -32,7 +32,9 @@ class Artist
       
   end
   
-  
+    def post_count
+        Post.all
+    end
     
   
   
