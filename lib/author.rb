@@ -12,6 +12,6 @@ class Author
     
   end
   
-  binding.pry
+  
   
 end
