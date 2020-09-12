@@ -6,6 +6,10 @@ class Post
     
   end
   
+  def posts 
+    
+  end
+  
   
   
 end
