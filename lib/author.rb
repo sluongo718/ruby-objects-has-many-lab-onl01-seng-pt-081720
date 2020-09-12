@@ -12,7 +12,7 @@ class Author
     Post.all.select {|the_post| the_post.author == self}
   end
   
-  def add_post
+  def add_post()
     
   end
   
